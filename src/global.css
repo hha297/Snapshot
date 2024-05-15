@@ -10,7 +10,7 @@
         }
 
         body {
-                @apply bg-dark-1 text-white min-h-screen font-primary;
+                @apply bg-dark-2 text-white min-h-screen font-primary;
         }
 }
 
@@ -267,7 +267,7 @@
 
         /* Button */
         .shad-button_primary {
-                @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+                @apply bg-primary-500 hover:bg-primary-600 text-light-1 flex gap-2 !important;
         }
 
         .shad-button_dark_4 {

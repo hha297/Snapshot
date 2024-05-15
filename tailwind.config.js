@@ -14,6 +14,7 @@ export default {
                 },
                 extend: {
                         colors: {
+                                primary: '#0189bb',
                                 'primary-500': '#877EFF',
                                 'primary-600': '#5D5FEF',
                                 'secondary-500': '#FFB620',
@@ -34,6 +35,7 @@ export default {
                         width: {
                                 420: '420px',
                                 465: '465px',
+                                500: '500px',
                         },
                         fontFamily: {
                                 primary: ['League Spartan', 'sans-serif'],
