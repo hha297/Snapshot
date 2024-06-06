@@ -14,7 +14,7 @@ const Bottombar = () => {
                                                 key={link.label}
                                                 className={`group ${
                                                         isActive && 'bg-primary-500 rounded-xl'
-                                                } flex-center flex-col gap-2 py-2 px-8 transition`}
+                                                } flex-center flex-col gap-2 py-2 px-16 transition`}
                                         >
                                                 <img
                                                         src={link.imgURL}
