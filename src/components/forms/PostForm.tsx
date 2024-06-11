@@ -136,7 +136,11 @@ const PostForm = ({ post, action }: PostFormProps) => {
                                         )}
                                 />
                                 <div className="flex gap-4 items-center justify-end">
-                                        <Button type="button" className="shad-button_dark_4">
+                                        <Button
+                                                type="button"
+                                                className="shad-button_dark_4"
+                                                onClick={() => navigate(-1)}
+                                        >
                                                 <p className="text-red">Cancel</p>
                                         </Button>
                                         <Button
