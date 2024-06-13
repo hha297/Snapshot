@@ -7,7 +7,6 @@ import { Models } from 'appwrite';
 const Home = () => {
         const { data: posts, isPending: isPostLoading, isError: isErrorPosts } = useGetRecentPosts();
         const { data: creators, isLoading: isUserLoading, isError: isErrorCreators } = useGetUsers(10);
-        console.log(isErrorPosts, 'IsErrorPosts');
 
         if (isErrorPosts || isErrorCreators) {
                 return (
